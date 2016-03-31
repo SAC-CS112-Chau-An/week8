@@ -1,0 +1,19 @@
+import java.util.Scanner; 
+
+public class Hello
+{ 
+public static void main(String[] args) 
+{ 
+  int today = calendar.getInstance().get(Calendar.Year);
+  String name =JoptionPane.showInput Dialog("enter your name : ")
+  String date = JoptionPane.showInput Dialog("enter your birth year  : ")
+  
+  int birthyear =Integer.parseint(date);
+
+
+   
+ 
+    message = String .format("\n Hello  %s, you're %d years old today ! \n", name , today-birthyear ); 
+   JOption.showMessageDialog(null,message)
+
+}
