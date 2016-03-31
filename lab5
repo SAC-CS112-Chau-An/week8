@@ -1,0 +1,39 @@
+import java.util.Scanner; 
+
+public class Hello
+{ 
+public static void main(String[] args) 
+{ 
+  int today = calendar.getInstance().get(Calendar.Year);
+  String name =JoptionPane.showInput Dialog("enter your name : ")
+  String date = JoptionPane.showInput Dialog("enter your birth year  : ")
+  
+  int birthyear =Integer.parseint(date);
+
+  
+   int lawdrink =  today-birthyear ;  
+ 
+  
+
+do
+{   
+  
+
+if (lawdrink >= 21 )
+ { 
+   JOption.showMessageDialog("\n you allow to drinnk ");
+  message = String .format("\n Hello  %s, you're %d years old today ! \n", name , lawdrink ); 
+   JOption.showMessageDialog(null,message);
+  }
+else 
+ {
+  JOption.showMessageDialog("\n you're not allow to drinnk ");
+  }
+
+ 
+String answer =JoptionPane.showInput Dialog(\n do you want do it again? Yes or No");
+   
+}
+while (answer == 'No');
+}
+}
